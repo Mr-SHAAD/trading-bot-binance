@@ -1,0 +1,25 @@
+2026-05-19 00:13:45,525 | INFO | Binance Futures Testnet client initialized
+2026-05-19 00:13:45,525 | INFO | Placing MARKET order | BUY 0.001 BTCUSDT
+2026-05-19 00:13:45,815 | INFO | MARKET order placed successfully | OrderId: 13157551174
+2026-05-19 00:14:48,992 | INFO | Binance Futures Testnet client initialized
+2026-05-19 00:14:48,992 | INFO | Placing LIMIT order | SELL 0.001 BTCUSDT @ 50000.0
+2026-05-19 00:14:49,229 | ERROR | Binance API error: Limit price can't be lower than 72474.56.
+2026-05-19 00:14:49,229 | ERROR | Fatal error: APIError(code=-4024): Limit price can't be lower than 72474.56.
+2026-05-19 00:15:22,355 | INFO | Binance Futures Testnet client initialized
+2026-05-19 00:15:22,355 | INFO | Placing LIMIT order | SELL 0.001 BTCUSDT @ 75000.0
+2026-05-19 00:15:22,583 | INFO | LIMIT order placed successfully | OrderId: 13157556969
+2026-05-19 00:16:39,228 | INFO | Binance Futures Testnet client initialized
+2026-05-19 00:16:39,228 | INFO | Placing STOP_LIMIT order | BUY 0.001 BTCUSDT @ 70000.0 | Stop: 71000.0
+2026-05-19 00:16:39,489 | ERROR | Binance API error: Order would immediately trigger.
+2026-05-19 00:16:39,489 | ERROR | Fatal error: APIError(code=-2021): Order would immediately trigger.
+2026-05-19 00:16:58,747 | INFO | Binance Futures Testnet client initialized
+2026-05-19 00:16:58,748 | INFO | Placing STOP_LIMIT order | BUY 0.001 BTCUSDT @ 70000.0 | Stop: 71000.0
+2026-05-19 00:16:59,014 | ERROR | Binance API error: Order would immediately trigger.
+2026-05-19 00:16:59,014 | ERROR | Fatal error: APIError(code=-2021): Order would immediately trigger.
+2026-05-19 00:17:25,921 | INFO | Binance Futures Testnet client initialized
+2026-05-19 00:17:25,921 | INFO | Placing STOP_LIMIT order | BUY 0.001 BTCUSDT @ 80000.0 | Stop: 79000.0
+2026-05-19 00:17:26,189 | ERROR | Unexpected error: 'orderId'
+2026-05-19 00:17:26,190 | ERROR | Fatal error: 'orderId'
+2026-05-19 00:18:08,138 | INFO | Binance Futures Testnet client initialized
+2026-05-19 00:18:08,138 | INFO | Placing STOP_LIMIT order | BUY 0.001 BTCUSDT @ 80000.0 | Stop: 79000.0
+2026-05-19 00:18:08,399 | INFO | STOP_LIMIT order placed successfully | OrderId: N/A
